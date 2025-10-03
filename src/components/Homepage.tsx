@@ -29,7 +29,7 @@ export function Homepage({
 }: HomepageProps) {
   const [activeSection, setActiveSection] = useState("about");
   const [showRobot, setShowRobot] = useState(false);
-  const [robotPosition, setRobotPosition] = useState(20); // Position as percentage (20% = light mode)
+  const [robotPosition, setRobotPosition] = useState(20); // Position as percentage (20% = light mode
   const [isDragging, setIsDragging] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState<null | typeof projects[0]>(null);
