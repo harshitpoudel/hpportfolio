@@ -628,7 +628,7 @@ export function Homepage({
                 window.open(selectedProject.link, "_blank");
               }}
             >
-              See on GitHub
+              View
               <ExternalLink className="ml-2 h-4 w-4" />
             </Button>
           </motion.div>
