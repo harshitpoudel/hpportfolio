@@ -589,7 +589,10 @@ export function Homepage({
       </section>
 
       {modalOpen && selectedProject && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-sm transition-all duration-300">
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-sm transition-all duration-300"
+          onClick={() => setModalOpen(false)}
+        >
           <motion.div
             initial={{ opacity: 0, scale: 0.95, y: 40 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
@@ -598,6 +601,7 @@ export function Homepage({
             className="bg-background rounded-xl shadow-2xl p-8 max-w-md w-full relative border border-primary/10"
             role="dialog"
             aria-modal="true"
+            onClick={e => e.stopPropagation()} // Prevent modal click from closing
           >
             <button
               className="absolute top-3 right-3 text-2xl text-muted-foreground hover:text-primary transition-colors"
