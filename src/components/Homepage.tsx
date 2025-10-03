@@ -202,14 +202,14 @@ export function Homepage({
         "IR Sensors",
         "PID Control",
       ],
-      link: "#",
+      link: "https://github.com/harshitpoudel/line-following-robot",
     },
     {
       title: "Noise Level Monitor and Alert System",
       description:
-        "A system that monitors ambient noise levels using a microphone sensor and sends alerts when predefined thresholds are exceeded. Implemented with blynk."
-,      technologies: ["ESP32", "Python", "IoT", "Mobile App"],
-      link: "#",
+        "A system that monitors ambient noise levels using a microphone sensor and sends alerts when predefined thresholds are exceeded. Implemented with blynk.",
+      technologies: ["ESP32", "Python", "IoT", "Mobile App"],
+      link: "https://github.com/harshitpoudel/noise-detection", 
     },
     {
       title: "Robotic Arm Controller",
@@ -221,7 +221,7 @@ export function Homepage({
         "Servo Motors",
         "Kinematics",
       ],
-      link: "#",
+      link: "https://github.com/harshitpoudel/robotic-arm-controller", 
     },
   ];
 
